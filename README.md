@@ -51,16 +51,12 @@ Urban emergency vehicles (such as ambulances) face severe delays at traffic inte
 ```text
 smart-green-corridor/
 ├── assets/
-│   ├── ambulance.mp4       # Raw input video stream
 │   ├── architecture.png    # High-level architecture pipeline
 │   └── demo.gif            # Visual output preview & HUD demo
-├── .env                    # Environment variables
-├── .gitignore              # Git ignore rules
-├── corridor_log.csv        # Timestamped audit log records
+├── .gitignore              # Git ignore rules (protects .env, weights, logs)
 ├── main.py                 # Core AI detection & control pipeline
 ├── README.md               # Production-grade documentation
-├── requirements.txt        # Frozen dependencies
-└── yolov8n.pt              # Pre-trained YOLOv8 weights
+└── requirements.txt        # Frozen dependencies
 ```
 ---
 
