@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# YOLO Model weights (గిట్‌హబ్‌లోకి 6MB ఫైల్ పుష్ చేయక్కర్లేదు, కోడ్ దానంతట అదే డౌన్‌లోడ్ చేసుకుంటుంది)
+*.pt
+
+# Data / Output Logs
+corridor_log.csv
+
+# Large Video Files (గిట్‌హబ్ సైజ్ లిమిట్ దాటకుండా ఉండటానికి)
+*.mp4
+*.avi
+assets/raw_videos/
+
+# Environment Variables
+.env
